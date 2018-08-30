@@ -7,7 +7,5 @@ npm-debug.log
 *.iml
 /.idea
 
-package-lock.json
-
 *.sw[ap]
 *.orig
