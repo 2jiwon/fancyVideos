@@ -12,6 +12,12 @@ YTSearch({key: API_KEY, term: 'surfboards'}, function (data) {
 
 // Create a new component. This component should produce some HTMl.
 class App extends Component {
+  constructor (props) {
+    super(props);
+
+    this.state = {};
+  }
+
   render () {
     return (
       <div>
