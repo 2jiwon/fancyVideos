@@ -1,9 +1,9 @@
 import React from 'react';
 
 const VideoListItem = ({video}) => {
-  console.log(video);
-
-  return <li>video</li>
+  return (
+    <li></li>
+  );
 };
 
 export default VideoListItem;
