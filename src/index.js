@@ -32,11 +32,11 @@ class App extends Component {
   render () {
     return (
       <div>
-        <SearchBar onSearchTermChange={term => this.videoSearch(term)}/>
+        <SearchBar onSearchTermChange={term => this.videoSearch(term)} />
         <VideoDetail video={this.state.selectedVideo} />
-        <VideoList 
+        <VideoList
           onVideoSelect={selectedVideo => this.setState({selectedVideo})}
-          videos={this.state.videos} 
+          videos={this.state.videos}
         />
       </div>
     );
